@@ -1,7 +1,7 @@
 var friendsArray = [
   {
     "name": "Rachel Green",
-    "photo": "../public/Images/RachelGreen.jpg",
+    "photo": "https://www.imdb.com/name/nm0000098/mediaviewer/rm226134272",
     "scores": [
       5,
       1,
@@ -17,7 +17,7 @@ var friendsArray = [
   },
   {
     "name": "Monica Geller",
-    "photo": "../public/Images/MonicaGeller.jpg",
+    "photo": "https://www.imdb.com/name/nm0001073/mediaviewer/rm651071232",
     "scores": [
       4,
       2,
@@ -33,7 +33,7 @@ var friendsArray = [
   },
   {
     "name": "Chandler Bing",
-    "photo": "../public/Images/ChandlerBing.jpg",
+    "photo": "https://www.imdb.com/name/nm0001073/mediaviewer/rm651071232",
     "scores": [
       4,
       2,
@@ -49,7 +49,7 @@ var friendsArray = [
   },
   {
     "name": "Phoebe Buffay",
-    "photo": "../public/Images/PhoebeBuffay.jpg",
+    "photo": "https://www.imdb.com/name/nm0001435/mediaviewer/rm1084919552",
     "scores": [
       5,
       4,
@@ -65,7 +65,7 @@ var friendsArray = [
   },
   {
     "name": "Joey Tribbiani",
-    "photo": "../public/Images/JoeyTribbiani.jpg",
+    "photo": "https://www.imdb.com/name/nm0001455/mediaviewer/rm1656431872",
     "scores": [
       3,
       1,
@@ -81,7 +81,7 @@ var friendsArray = [
   },
   {
     "name": "Ross Geller",
-    "photo": "../public/Images/RossGeller.jpg",
+    "photo": "https://www.imdb.com/name/nm0001710/mediaviewer/rm1256453888",
     "scores": [
       1,
       3,
@@ -97,7 +97,7 @@ var friendsArray = [
   },
   {
     "name": "Janice Hosenstein",
-    "photo": "../public/Images/JaniceHosenstein.jpg",
+    "photo": "https://www.imdb.com/name/nm0923909/mediaviewer/rm1639654656",
     "scores": [
       1,
       1,
@@ -113,7 +113,7 @@ var friendsArray = [
   },
   {
     "name": "Mike Hannigan",
-    "photo": "../public/Images/MikeHannigan.jpg",
+    "photo": "https://www.imdb.com/title/tt0108778/mediaviewer/rm1476261888?ft0=name&fv0=nm0748620&ft1=image_type&fv1=still_frame",
     "scores": [
       1,
       2,
@@ -129,7 +129,7 @@ var friendsArray = [
   },
   {
     "name": "Emily Waltham",
-    "photo": "../public/Images/EmilyWaltham.jpg",
+    "photo": "https://www.imdb.com/title/tt0108778/mediaviewer/rm1090385920?ft0=name&fv0=nm0062636&ft1=image_type&fv1=still_frame",
     "scores": [
       1,
       4,
@@ -145,7 +145,7 @@ var friendsArray = [
   },
   {
     "name": "Charlie Wheeler",
-    "photo": "/app/public/Images/CharlieWheeler.jpg", //"../public/Images/CharlieWheeler.jpg",
+    "photo": "https://www.imdb.com/title/tt0108778/mediaviewer/rm2700998656?ft0=name&fv0=nm0878768&ft1=image_type&fv1=still_frame",
     "scores": [
       5,
       5,
