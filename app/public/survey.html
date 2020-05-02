@@ -19,7 +19,7 @@
 
     <div class="container">
 
-        <h2 class="text-center">FriendFinder Survey Questions</h2>
+        <h1 class="text-center">FriendFinder Survey Questions</h1>
         <hr>
 
         <h3><strong>About You</strong></h3>
@@ -32,7 +32,7 @@
 
         <h3><strong>Question 1</strong></h3>
         <h4>You like to plan ahead and focus on acheiving your goals.</h4>
-        <select class="chosen-select" id="q1">
+        <select class="selection" id="q1">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -43,7 +43,7 @@
 
         <h3><strong>Question 2</strong></h3>
         <h4>You are confident in your abilities even when dealing with something unknown.</h4>
-        <select class="chosen-select" id="q2">
+        <select class="selection" id="q2">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -55,7 +55,7 @@
 
         <h3><strong>Question 3</strong></h3>
         <h4>You remain calm and cool in high stress situations.</h4>
-        <select class="chosen-select" id="q3">
+        <select class="selection" id="q3">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -67,7 +67,7 @@
 
         <h3><strong>Question 4</strong></h3>
         <h4>You never hesitate to take advantage of opportunities or meet new people.</h4>
-        <select class="chosen-select" id="q4">
+        <select class="selection" id="q4">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -79,7 +79,7 @@
 
         <h3><strong>Question 5</strong></h3>
         <h4>You always see the best in people.</h4>
-        <select class="chosen-select" id="q5">
+        <select class="selection" id="q5">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -91,7 +91,7 @@
 
         <h3><strong>Question 6</strong></h3>
         <h4>People often say you are a great listener.</h4>
-        <select class="chosen-select" id="q6">
+        <select class="selection" id="q6">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -103,7 +103,7 @@
 
         <h3><strong>Question 7</strong></h3>
         <h4>You are open to other peoples views, even if you disagree with them.</h4>
-        <select class="chosen-select" id="q7">
+        <select class="selection" id="q7">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -114,7 +114,7 @@
 
         <h3><strong>Question 8</strong></h3>
         <h4>Sometimes you lose track of time.</h4>
-        <select class="chosen-select" id="q8">
+        <select class="selection" id="q8">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -125,7 +125,7 @@
 
         <h3><strong>Question 9</strong></h3>
         <h4>You would rather spend the day enjoying the outdoors than a night out in town.</h4>
-        <select class="chosen-select" id="q9">
+        <select class="selection" id="q9">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -136,7 +136,7 @@
 
         <h3><strong>Question 10</strong></h3>
         <h4>You get bored with routines and prefer to change things up whenever possible.</h4>
-        <select class="chosen-select" id="q10">
+        <select class="selection" id="q10">
             <option value=""></option>
             <option value="1">1 (Strongly Disagree)</option>
             <option value="2">2</option>
@@ -156,7 +156,7 @@
         <hr>
         <footer class="footer">
             <div class="container">
-                <p><a href="/api/friends">Friends List</a> | <a href="https://github.com/MV-stack/friendFinder">GitHub
+                <p><a href="home.html">FriendFinder</a> | <a href="/data/friends">Friends List</a> | <a href="https://github.com/MV-stack/friendFinder">GitHub
                         Repo</a></p>
             </div>
         </footer>
@@ -173,7 +173,7 @@
                 </div>
                 <div class="modal-body">
                     <h2 id="match-name"></h2>
-                    <img id="match-img" src="https://via.placeholder.com/300.png" alt="Placeholder image">
+                    <img id="match-img" src="" alt="">
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -193,7 +193,7 @@
                         isValid = false;
                     }
                 });
-                $(".chosen-select").each(function () {
+                $(".selection").each(function () {
                     if ($(this).val() === "") {
                         isValid = false;
                     }
@@ -219,7 +219,8 @@
                 };
 
                 // AJAX post to friends API
-                $.post("/api/friends", userData, function (data) {
+                $.post("/data/friends", userData, function (data) {
+                    console.log(userData);
                     $("#match-name").text(data.name);
                     $("#match-img").attr("src", data.photo);
                     $("#results-modal").modal("toggle");

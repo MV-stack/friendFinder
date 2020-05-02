@@ -2,31 +2,37 @@ var friends = require("../data/friends");
 
 module.exports = function(app) {
 // Displays all friends
-app.get("/api/friends", function(req, res) {
+app.get("/data/friends", function(req, res) {
     return res.json(friends);
   });
 
 // Create new survey results - takes in JSON input
-app.post("/api/friends", function(req, res) {
+app.post("/data/friends", function(req, res) {
     // req.body hosts is equal to the JSON post sent from the user
     // This works because of our body parsing middleware
-    var scoreDifference = 0,
-    bestMatch = {name: "", photo: "", difference: 1000};
-
-    var newSurvey = req.body,
+    var bestMatch = {name: "", photo: "", difference: 1000},
+    newSurvey = req.body,
     newName = newSurvey.name,
     newScores = newSurvey.scores,
+    scoreDifference;
     
+    //Loop through friends data
+    for(var i = 0; i < friends.length; i++) {
+      console.log(friends[i].name);
+      scoreDifference = 0;
 
-  
-    // Using a RegEx Pattern to remove spaces from newCharacter
-    // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
-    newSurvey.routeName = newSurvey.name.replace(/\s+/g, "").toLowerCase();
-  
-    console.log(newSurvey);
-  
-    surveys.push(newSurvey);
-  
-    res.json(newSurvey);
+      //Loop through scores data and calculate difference
+      for(var f = 0; f < friends[i].scores[f]; f++) {
+        scoreDifference += Math.abs(parseInt(newScores[f]) - parseInt(friends[i].scores[f]));
+        if(scoreDifference <= bestMatch.difference) {
+          bestMatch.name = friends[i].name;
+          bestMatch.photo = friends[i].photo;
+          bestMatch.difference = scoreDifference;
+        }
+      }
+    }
+    //Push new survey data to friends
+    friends.push(newSurvey);
+    res.json(bestMatch);
   });
-}
+};

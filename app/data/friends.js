@@ -1,7 +1,7 @@
 var friendsArray = [
   {
     "name": "Rachel Green",
-    "photo": "/Images/RachelGreen.jpg",
+    "photo": "../public/Images/RachelGreen.jpg",
     "scores": [
       5,
       1,
@@ -17,7 +17,7 @@ var friendsArray = [
   },
   {
     "name": "Monica Geller",
-    "photo": "/Images/MonicaGeller.jpg",
+    "photo": "../public/Images/MonicaGeller.jpg",
     "scores": [
       4,
       2,
@@ -33,7 +33,7 @@ var friendsArray = [
   },
   {
     "name": "Chandler Bing",
-    "photo": "/Images/ChandlerBing.jpg",
+    "photo": "../public/Images/ChandlerBing.jpg",
     "scores": [
       4,
       2,
@@ -49,7 +49,7 @@ var friendsArray = [
   },
   {
     "name": "Phoebe Buffay",
-    "photo": "/Images/PhoebeBuffay.jpg",
+    "photo": "../public/Images/PhoebeBuffay.jpg",
     "scores": [
       5,
       4,
@@ -65,7 +65,7 @@ var friendsArray = [
   },
   {
     "name": "Joey Tribbiani",
-    "photo": "/Images/JoeyTribbiani.jpg",
+    "photo": "../public/Images/JoeyTribbiani.jpg",
     "scores": [
       3,
       1,
@@ -81,7 +81,7 @@ var friendsArray = [
   },
   {
     "name": "Ross Geller",
-    "photo": "/Images/RossGeller.jpg",
+    "photo": "../public/Images/RossGeller.jpg",
     "scores": [
       1,
       3,
@@ -97,7 +97,7 @@ var friendsArray = [
   },
   {
     "name": "Janice Hosenstein",
-    "photo": "/Images/JaniceHosenstein.jpg",
+    "photo": "../public/Images/JaniceHosenstein.jpg",
     "scores": [
       1,
       1,
@@ -113,7 +113,7 @@ var friendsArray = [
   },
   {
     "name": "Mike Hannigan",
-    "photo": "/Images/MikeHannigan.jpg",
+    "photo": "../public/Images/MikeHannigan.jpg",
     "scores": [
       1,
       2,
@@ -129,7 +129,7 @@ var friendsArray = [
   },
   {
     "name": "Emily Waltham",
-    "photo": "/Images/EmilyWaltham.jpg",
+    "photo": "../public/Images/EmilyWaltham.jpg",
     "scores": [
       1,
       4,
@@ -145,7 +145,7 @@ var friendsArray = [
   },
   {
     "name": "Charlie Wheeler",
-    "photo": "/Images/CharlieWheeler.jpg",
+    "photo": "/app/public/Images/CharlieWheeler.jpg", //"../public/Images/CharlieWheeler.jpg",
     "scores": [
       5,
       5,
