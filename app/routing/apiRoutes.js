@@ -10,7 +10,14 @@ app.get("/api/friends", function(req, res) {
 app.post("/api/friends", function(req, res) {
     // req.body hosts is equal to the JSON post sent from the user
     // This works because of our body parsing middleware
-    var newSurvey = req.body;
+    var scoreDifference = 0,
+    bestMatch = {name: "", photo: "", difference: 1000};
+
+    var newSurvey = req.body,
+    newName = newSurvey.name,
+    newScores = newSurvey.scores,
+    
+
   
     // Using a RegEx Pattern to remove spaces from newCharacter
     // You can read more about RegEx Patterns later https://www.regexbuddy.com/regex.html
