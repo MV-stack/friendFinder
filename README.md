@@ -18,8 +18,8 @@ The app gathers user survey results and then compares them to other users to fin
 
 ### Screenshots
 
-![Home](/public/Images/Home.PNG)
-![Survey](/public/Images/Survey.PNG)
+![Home](app/public/Images/Home.PNG)
+![Survey](app/public/Images/Survey.PNG)
 
 ### Tech
 
