@@ -6,9 +6,28 @@
 
 This app uses Express to handle routing and is deployed to Heroku so other users can fill it out.
 
-### Submission on BCS
+The survey consists of 10 questions. Each queston is answered on a scale of 1 to 5 based on how much the user agrees or disagrees with a question. 
 
-* Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
+The app gathers user survey results and then compares them to other users to find the best match.
+
+### Links
+
 * Heroku link: https://stormy-falls-65386.herokuapp.com/
 * Github Repo: https://github.com/MV-stack/friendFinder
 * Portfolio: https://mv-stack.github.io/Portfolio-EC/
+
+### Screenshots
+
+![Home](/public/Images/Home.PNG)
+![Survey](/public/Images/Survey.PNG)
+
+### Tech
+
+**GitHub** (https://github.com/)
+**Heroku** (https://www.heroku.com/)
+**Node.js** (https://nodejs.org/en/)
+**Express** (https://expressjs.com/)
+**Path** (https://nodejs.org/api/path.html)
+**Visual Studio Code** (https://code.visualstudio.com/)
+
+
