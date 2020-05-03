@@ -9,6 +9,6 @@ This app uses Express to handle routing and is deployed to Heroku so other users
 ### Submission on BCS
 
 * Please submit both the deployed Heroku link to your homework AND the link to the Github Repository!
-* Heroku link:
+* Heroku link: https://stormy-falls-65386.herokuapp.com/
 * Github Repo: https://github.com/MV-stack/friendFinder
 * Portfolio: https://mv-stack.github.io/Portfolio-EC/
