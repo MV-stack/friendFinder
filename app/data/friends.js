@@ -1,7 +1,7 @@
 var friendsArray = [
   {
     "name": "Rachel Green",
-    "photo": "https://www.imdb.com/name/nm0000098/mediaviewer/rm226134272",
+    "photo": "https://m.media-amazon.com/images/M/MV5BNzcwMDk3NzI1M15BMl5BanBnXkFtZTgwNjE3MzE1NTE@._V1_.jpg",
     "scores": [
       5,
       1,
@@ -17,7 +17,7 @@ var friendsArray = [
   },
   {
     "name": "Monica Geller",
-    "photo": "https://www.imdb.com/name/nm0001073/mediaviewer/rm651071232",
+    "photo": "https://m.media-amazon.com/images/M/MV5BMjA5MjgzMjI1NF5BMl5BanBnXkFtZTgwMjczMzYzMzE@._V1_.jpg",
     "scores": [
       4,
       2,
@@ -33,7 +33,7 @@ var friendsArray = [
   },
   {
     "name": "Chandler Bing",
-    "photo": "https://www.imdb.com/name/nm0001073/mediaviewer/rm651071232",
+    "photo": "https://m.media-amazon.com/images/M/MV5BMzQyZTIxODktYWFhMS00Y2U1LWFiNTQtZjUxNTk2YmM0NzJiXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
     "scores": [
       4,
       2,
@@ -49,7 +49,7 @@ var friendsArray = [
   },
   {
     "name": "Phoebe Buffay",
-    "photo": "https://www.imdb.com/name/nm0001435/mediaviewer/rm1084919552",
+    "photo": "https://m.media-amazon.com/images/M/MV5BNGQyYjZlZjktMTllZS00NGM4LTgwNGQtZTc0NDdiNWQ3ODhhXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
     "scores": [
       5,
       4,
@@ -65,7 +65,7 @@ var friendsArray = [
   },
   {
     "name": "Joey Tribbiani",
-    "photo": "https://www.imdb.com/name/nm0001455/mediaviewer/rm1656431872",
+    "photo": "https://m.media-amazon.com/images/M/MV5BNDQ4NjM4OTc4OF5BMl5BanBnXkFtZTgwNzA3MzE1NTE@._V1_.jpg",
     "scores": [
       3,
       1,
@@ -81,7 +81,7 @@ var friendsArray = [
   },
   {
     "name": "Ross Geller",
-    "photo": "https://www.imdb.com/name/nm0001710/mediaviewer/rm1256453888",
+    "photo": "https://m.media-amazon.com/images/M/MV5BMjIwOTU5Nzg4N15BMl5BanBnXkFtZTgwMzM3MzE1NTE@._V1_.jpg",
     "scores": [
       1,
       3,
@@ -97,7 +97,7 @@ var friendsArray = [
   },
   {
     "name": "Janice Hosenstein",
-    "photo": "https://www.imdb.com/name/nm0923909/mediaviewer/rm1639654656",
+    "photo": "https://m.media-amazon.com/images/M/MV5BNjE3NmViMmEtN2U2Yy00NTEzLTgwYmUtODEwNzRiZjdmOGVkXkEyXkFqcGdeQXVyNTM3MDMyMDQ@._V1_.jpg",
     "scores": [
       1,
       1,
@@ -113,7 +113,7 @@ var friendsArray = [
   },
   {
     "name": "Mike Hannigan",
-    "photo": "https://www.imdb.com/title/tt0108778/mediaviewer/rm1476261888?ft0=name&fv0=nm0748620&ft1=image_type&fv1=still_frame",
+    "photo": "https://m.media-amazon.com/images/M/MV5BMTQ2Nzc3NjA3NF5BMl5BanBnXkFtZTgwODAyMzYzMzE@._V1_.jpg",
     "scores": [
       1,
       2,
@@ -129,7 +129,7 @@ var friendsArray = [
   },
   {
     "name": "Emily Waltham",
-    "photo": "https://www.imdb.com/title/tt0108778/mediaviewer/rm1090385920?ft0=name&fv0=nm0062636&ft1=image_type&fv1=still_frame",
+    "photo": "https://m.media-amazon.com/images/M/MV5BNDU1NTgzODQ5M15BMl5BanBnXkFtZTgwODkxMzYzMzE@._V1_.jpg",
     "scores": [
       1,
       4,
@@ -145,7 +145,7 @@ var friendsArray = [
   },
   {
     "name": "Charlie Wheeler",
-    "photo": "https://www.imdb.com/title/tt0108778/mediaviewer/rm2700998656?ft0=name&fv0=nm0878768&ft1=image_type&fv1=still_frame",
+    "photo": "https://m.media-amazon.com/images/M/MV5BMTM2ODczMjAwNF5BMl5BanBnXkFtZTYwMjA5NjA2._V1_.jpg",
     "scores": [
       5,
       5,
